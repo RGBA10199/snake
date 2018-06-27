@@ -1,0 +1,18 @@
+.map {
+          position: relative;
+          top: 1rem;
+          margin: 0 auto;
+}
+
+.snakeheadcase>div,
+.snakebodycase>div>div,
+.foodcase>div,
+.cell {
+          position: absolute;
+          width: 1rem;
+          height: 1rem;
+}
+
+html {
+          font-size: 25px;
+}

@@ -1,0 +1,68 @@
+* {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          box-sizing: border-box;
+          list-style: none;
+          outline: none;
+          resize: none;
+          background-color: transparent;
+          color: inherit;
+          font-family: inherit;
+          font-size: inherit;
+          line-height: inherit;
+          font-weight: inherit;
+          font-style: inherit;
+          text-decoration: inherit;
+}
+
+body {
+          background-color: #ccc;
+          color: #333;
+          font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, \\5B8B\4F53, sans-serif;
+          font-size: 16px;
+          line-height: 1;
+          font-weight: normal;
+          font-style: normal;
+          text-decoration: none;
+}
+
+img {
+          vertical-align: middle;
+}
+
+button {
+          cursor: pointer;
+}
+
+.clearfix:after {
+          content: ".";
+          display: block;
+          visibility: hidden;
+          height: 0;
+          clear: both;
+}
+
+.clearfix {
+          *zoom: 1;
+}
+
+.clear {
+          display: block;
+          font-size: 0;
+          line-height: 0;
+          height: 0;
+          clear: both;
+}
+
+.none {
+          display: none;
+}
+
+.hidden {
+          visibility: hidden;
+}
+
+[class^="icon-"] {
+          font-family: iconfont;
+}
